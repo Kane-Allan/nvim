@@ -3,8 +3,10 @@ return {
     "yetone/avante.nvim",
     opts = {
       provider = "copilot",
-      copilot = {
-        model = "claude-opus-4.6", -- Or "gpt-4o", "claude-3.7-sonnet", etc.
+      providers = {
+        copilot = {
+          model = "claude-opus-4.6",
+        },
       },
       selection = {
         hint_display = "none",

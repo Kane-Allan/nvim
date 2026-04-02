@@ -1,9 +1,9 @@
 return {
-  "RRethy/base16-nvim",
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "base16-catppuccin-frappe",
+      colorscheme = "catppuccin-frappe",
     },
   },
 }
